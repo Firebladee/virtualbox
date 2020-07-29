@@ -11,6 +11,9 @@ group :development do
   # gem "rcov"
 
   # Integration tests
-  gem "cucumber", "~> 0.8.0"
+  gem "cucumber" #, "~> 0.8.0"
   gem "rspec"
+
+  # upgrade fixes
+  gem "test-unit"
 end
